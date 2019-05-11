@@ -55,12 +55,12 @@
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="phh" revision="android-9.0.0_r53-r47-phh" />
 
 <remove-project name="platform_packages_services_Telephony" />
-<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="phh" revision="android-9.0.0_r53-r47-phh" />
+<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cheah" revision="development-pie" />
 
 <remove-project name="platform_bionic" />
 <project path="bionic" name="platform_bionic" remote="phh" revision="android-9.0.0_r53-r47-phh" />
 
 <remove-project name="platform_prebuilts_misc" />
-<project path="prebuilts/misc" name="platform_prebuilts_misc" remote="cheahgl" revision="android-9.0.0_r51-r47-cheah" />
+<project path="prebuilts/misc" name="platform_prebuilts_misc" remote="cheahgl" revision="android-9.0.0_r53-r47-cheah" />
 
 </manifest>
