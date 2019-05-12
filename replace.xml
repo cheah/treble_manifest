@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="cheah" fetch="https://github.com/cheah/" />
+<remote name="cheahgl" fetch="https://gitlab.com/michael.cheah/" />
 
 <remove-project name="platform_build" />
 <project path="build/make" name="platform_build" remote="phh" revision="android-9.0.0_r53-r47-phh">
@@ -57,5 +59,8 @@
 
 <remove-project name="platform_bionic" />
 <project path="bionic" name="platform_bionic" remote="phh" revision="android-9.0.0_r53-r47-phh" />
+
+<remove-project name="platform_prebuilts_misc" />
+<project path="prebuilts/misc" name="platform_prebuilts_misc" remote="cheahgl" revision="android-9.0.0_r51-r47-cheah" />
 
 </manifest>
