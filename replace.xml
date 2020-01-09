@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="cheah" fetch="https://github.com/cheah/" />
 
 <remove-project name="platform/build" />
 <project path="build/make" name="platform_build" remote="phh" revision="android-10.0.0_r41-phh">
