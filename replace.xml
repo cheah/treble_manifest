@@ -3,6 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="cheah" fetch="https://github.com/cheah/" />
 <remote name="cheahgl" fetch="https://gitlab.com/michael.cheah/" />
+<remote name="aosp-security" fetch="https://gitlab.com/aosp-security/" />
 
 <remove-project name="platform_build" />
 <project path="build/make" name="platform_build" remote="phh" revision="android-9.0.0_r53-r47-phh">
@@ -62,5 +63,11 @@
 
 <remove-project name="platform_prebuilts_misc" />
 <project path="prebuilts/misc" name="platform_prebuilts_misc" remote="cheahgl" revision="android-9.0.0_r53-r47-cheah" />
+
+<remove-project name="platform_external_x264" />
+<project path="external/x264" name="platform_external_x264" remote="aosp-security" revision="android-9.0.0_r52-r47" />
+
+<remove-project name="platform_test_vti_test_serving" />
+<project path="test/vti/test_serving" name="platform_test_vti_test_serving" remote="aosp-security" revision="android-9.0.0_r52-r47" />
 
 </manifest>
