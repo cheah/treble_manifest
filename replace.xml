@@ -33,7 +33,7 @@
 <project path="external/selinux" name="platform_external_selinux" remote="phh" revision="android-10.0.0_r41-phh" />
 
 <remove-project name="platform/frameworks/base" />
-<project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-10.0.0_r41-phh" />
+<project path="frameworks/base" name="platform_frameworks_base" remote="cheah" revision="development-ten" />
 
 <remove-project name="platform/frameworks/av" />
 <project path="frameworks/av" name="platform_frameworks_av" remote="phh" revision="android-10.0.0_r41-phh" />
