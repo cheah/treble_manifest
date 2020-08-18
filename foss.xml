@@ -2,9 +2,10 @@
 <manifest>
 	<remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
 	<remote name="phh" fetch="https://github.com/phhusson/" />
+	<remote name="cheah" fetch="https://github.com/cheah/" />
 	<project path="packages/apps/FDroidPrivilegedExtension"
 		name="privileged-extension.git" remote="fdroid"
 		revision="refs/tags/0.2.7" />
 	<project path="vendor/foss" name="vendor_foss"
-		remote="phh" revision="master" />
+		remote="cheah" revision="master-cheah" />
 </manifest>
